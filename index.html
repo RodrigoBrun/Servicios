@@ -5,54 +5,110 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rodrigo Brun | Servicios Web</title>
   <link rel="stylesheet" href="styles.css">
-  <style>
-    .card a {
-      display: block;
-      margin-top: 0.5rem;
-    }
-  </style>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-  <header class="hero">
+  <div id="particles-js"></div>
+  <header class="hero" data-aos="fade-down">
     <h1>Rodrigo Brun</h1>
     <p>Creo experiencias digitales creativas y funcionales</p>
   </header>
 
-  <nav class="navbar">
+  <nav class="navbar" data-aos="fade-down">
     <a href="#servicios">Servicios</a>
     <a href="#portfolio">Portfolio</a>
     <a href="#sobre-mi">Sobre mí</a>
     <a href="#contacto">Contacto</a>
   </nav>
 
-  <section id="servicios" class="seccion">
+  <section id="servicios" class="seccion" data-aos="fade-up">
     <h2>Servicios</h2>
     <div class="cards">
-      <div class="card">
+      <div class="card" data-aos="fade-right">
         <h3>🌿 Salud y Bienestar</h3>
         <p>Plataforma con rutinas, recetas saludables, gráficos interactivos y contactos profesionales.</p>
         <a href="https://rodribru.github.io/SaludYBienestar" target="_blank">Ver sitio</a>
       </div>
-  <div class="card">
-  <h3>🎉 Invitaciones Web</h3>
-  <p>Diseños personalizados para cumpleaños, eventos y celebraciones especiales.</p>
-  <p>✨ Invitaciones completas (con animación, sonido, carta personalizada, contador del evento y botón de confirmación automática vía WhatsApp): <strong>$25 USD</strong>.</p>
-  <p>💫 Versiones más básicas desde <strong>$10 USD</strong>, ideales si buscás algo sencillo pero bonito.</p>
-  <p>📌 El siguiente ejemplo corresponde a una invitación completa:</p>
-  <a href="https://rodribru.github.io/InvitacionWeb/" target="_blank">Te dejo este ejemplo</a>
-  <a href="#contacto">📩 Encargá la tuya</a>
-</div>
-
+      
+      <div class="card" data-aos="fade-left">
+        <h3>🎉 Invitaciones Web</h3>
+        <p>Diseños personalizados para cumpleaños, eventos y celebraciones especiales.</p>
+        <p>✨ Invitaciones completas (con animación, sonido, carta personalizada, contador del evento y botón de confirmación automática vía WhatsApp): <strong>$25 USD</strong>.</p>
+        <p>💫 Versiones más básicas desde <strong>$10 USD</strong>, ideales si buscás algo sencillo pero bonito.</p>
+        <p>📌 El siguiente ejemplo corresponde a una invitación completa:</p>
+        <a href="https://rodribru.github.io/InvitacionWeb/" target="_blank">Te dejo este ejemplo</a>
+        <br>
+        <a href="#contacto">📩 Encargá la tuya</a>
+      </div>
+  
+      <div class="card" data-aos="fade-right">
+        <h3>🖥️ Página Web para tu Negocio</h3>
+        <p>Diseño y desarrollo de sitios web personalizados para emprendedores, profesionales y pequeñas empresas.</p>
+        <p>🌐 Sitios modernos, adaptados a celular, con velocidad optimizada y diseño a medida.</p>
+        <p>📦 Podés incluir secciones como: inicio, servicios, contacto, ubicación, redes sociales y más.</p>
+        <p>💰 Desde <strong>$80 USD</strong>, dependiendo del tipo de sitio y funciones.</p>
+        <a href="#contacto">📩 Solicitá presupuesto</a>
+      </div>
     </div>
+  <br>
+  <br>
+    <div class="tabla-precios" data-aos="fade-up">
+      <h3>💼 Tipos de Sitios y Precios Estimados <br><span class="pista">(pulsá para ver)</span></br></h3>
+    
+      <div class="acordeon">
+        <div class="item">
+          <button class="acordeon-titulo">Landing simple (1 sección)</button>
+          <div class="acordeon-contenido">
+            <p>Precio estimado: $40 – $70 USD</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <button class="acordeon-titulo">Página básica de negocio (3-4 secciones)</button>
+          <div class="acordeon-contenido">
+            <p>Precio estimado: $100 – $200 USD</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <button class="acordeon-titulo">Sitio personalizado con diseño + responsive + animaciones</button>
+          <div class="acordeon-contenido">
+            <p>Precio estimado: $200 – $400 USD</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <button class="acordeon-titulo">Sitio con formulario + WhatsApp + galería o portafolio</button>
+          <div class="acordeon-contenido">
+            <p>Precio estimado: $250+ USD</p>
+          </div>
+        </div>
+      
+        <div class="item">
+          <button class="acordeon-titulo">E-commerce o sistema especial</button>
+          <div class="acordeon-contenido">
+            <p>Precio estimado: $500+ USD</p>
+          </div>
+        </div>
+      </div>
+      
+    
+      <br>
+      <div class="acordeon-boton">
+        <a href="#contacto" class="btn-presupuesto">💬 Pedir presupuesto</a>
+      </div>
+      
+    </div>
+    
   </section>
+  
 
-  <section id="portfolio" class="seccion">
+  <section id="portfolio" class="seccion" data-aos="fade-up">
     <h2>Portfolio</h2>
     <p>Proximamente...</p>
-    <!-- Acá podés agregar imágenes o capturas -->
   </section>
 
-  <section id="sobre-mi" class="seccion">
+  <section id="sobre-mi" class="seccion" data-aos="fade-up">
     <h2>Sobre mí</h2>
     <p>Soy Rodrigo Brun, desarrollador web enfocado en soluciones digitales creativas y funcionales.</p>
     <p>Cuento con experiencia en el diseño y desarrollo de sitios web, combinando estética, usabilidad y rendimiento.</p>
@@ -60,23 +116,81 @@
     <p>Me apasiona el diseño limpio, la optimización del código y generar experiencias digitales que conecten con las personas.</p>
   </section>
 
-  <section id="contacto" class="seccion">
-  <h2>Contacto</h2>
-  <form action="https://formsubmit.co/rodrigobrun.code@gmail.com" method="POST">
-    <!-- Redirección después del envío -->
-    <input type="hidden" name="_next" value="https://rodrigobrun.github.io/Servicios/">
+  <section id="contacto" class="seccion" data-aos="fade-up">
+    <h2>Contacto</h2>
+    <form action="https://formsubmit.co/rodrigobrun.code@gmail.com" method="POST">
+      <input type="hidden" name="_next" value="https://rodrigobrun.github.io/Servicios/">
+      <input type="text" name="name" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="message" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p>O escribime directo por <a href="https://wa.me/59892992182" target="_blank">WhatsApp</a></p>
+  </section>
 
-    <input type="text" name="name" placeholder="Tu nombre" required>
-    <input type="email" name="email" placeholder="Tu correo" required>
-    <textarea name="message" placeholder="Tu mensaje" required></textarea>
-    <button type="submit">Enviar</button>
-  </form>
-  <p>O escribime directo por <a href="https://wa.me/59892992182" target="_blank">WhatsApp</a></p>
-</section>
+  <a href="https://wa.me/59892992182" class="whatsapp-float" target="_blank" aria-label="Enviar mensaje por WhatsApp">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+  </a>
+  
+  
 
-
-  <footer>
+  <footer data-aos="fade-up">
     <p>&copy; 2025 Rodrigo Brun</p>
   </footer>
+
+
+  <script src="script.js"></script>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <!-- Configuración de las partículas -->
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 60,
+        "density": { "enable": true, "value_area": 800 }
+      },
+      "color": { "value": "#ffffff" },
+      "opacity": {
+        "value": 0.2,
+        "random": true
+      },
+      "size": {
+        "value": 3,
+        "random": true
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 120,
+        "color": "#ffffff",
+        "opacity": 0.1,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 1,
+        "direction": "none",
+        "out_mode": "out"
+      }
+    },
+    "interactivity": {
+      "events": {
+        "onhover": { "enable": true, "mode": "grab" },
+        "onclick": { "enable": false }
+      }
+    },
+    "retina_detect": true
+  });
+  </script>
+
 </body>
 </html>
